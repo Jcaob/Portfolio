@@ -1,0 +1,61 @@
+body{
+    background-color: gray;
+}
+.body{
+    margin: 50px;
+
+    
+}
+
+.home-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image{
+    height: 200px;
+    width: 200px;
+    background-image: url("/Portfolio/final_project/images/face.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+
+.home-text{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text p{
+    color: white;
+}
+
+.home-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 38px;
+    background-color: maroon;
+}
+
+.home-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-button:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: maroon;
+}
+
+.home-button a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+    color: maroon;
+}
+
