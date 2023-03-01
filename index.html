@@ -10,92 +10,59 @@
         <script src="js/sidebar.js"></script>
     </head>
     <body>
-        <nav class="nav">
-            <ul class="nav">
-                <li class="nav">
-                    <div class="toggle" onclick="toggleMenu()">
-                        <span class="icon"><i class="fa-sharp fa-solid fa-bars"></i></span>
-                    </div>
-                </li>
-                <li class="nav">
-                    <a href="index.html" class="nav">
-                        <span class="icon"><i class="fa-sharp fa-solid fa-house"></i></span>
-                        <span class="title">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="projects.html" class="nav">
-                        <span class="icon"><i class="fa-sharp fa-solid fa-diagram-project"></i></span>
-                        <span class="title">Projects</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav">
-                        <span class="icon"><i class="fa-sharp fa-solid fa-user"></i></span>
-                        <span class="title">About</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav">
-                        <span class="icon"><i class="fa-sharp fa-solid fa-address-book"></i></span>
-                        <span class="title">Contact</span>
-                    </a>
-                </li>
-            </ul>
+        <div class="nav-wrapper">
+            <nav>
+                <div class="logo">
+                   <p class="name">Jacob Catalan</p>
+                </div>
+                <div class="links">
+                    <a href="#index">home</a>
+                    <a href="#about">about</a>
+                    <a href="#projects">projects</a>
+                    <a href="#contact">contact</a>
+                    
+             </div>
         </nav>
+    </div>
         
-        <section class="title">
-            
-            
-             <div class="title-image">
-                 
-             </div>
-             <div class="title-text-box">
-                <div class="title-text">Challenge your mind
-                </div>
-             </div>
-         </section>
-        <section class="body">
-            
-            
-            
-            <div class="home-body">
+        
+        <section class="body" id="index">
+            <div class="info">
+                <h1 class="header">Hi! My name is Jacob Catalan</h1>
+                <p class="desc">I am a Full Stack devloper(Focusing in Front End) <br>
+                    from Brownsburg Indiana I help Create the visions 
+                     of companies <br>dream websites come to life</p>
                 
-                <div class="home-text">
-                    <p>Hello My name is Jacob Catalan</p>
-                </div>
-                <div class="home-text">
-                    <p>I am a Full stack developer studying at IUPUI</p>
-                </div>
-                <button class="home-button">
-                    <a href="about.html">About me</a>
-                </button>
             </div>
-            <div class="home-body">
-                
-                <div class="home-text">
-                    <p>Check out some of my work!</p>
-                </div>
-                <div class="home-text">
-                    <p>It can be found <span class="home-link"><a href="https://jcaob.github.io/final/">here</a></span> or on my Projects page</p>
-                </div>
-                <button class="home-button">
-                    <a href="projects.html">Projects</a>
-                </button>
-            </div>
-            
+            <div class="img"></div>
+
         </section>
         
-        <footer>
-            <div class="footer-text">
-                <p>Contact Me:</p>
+        <section class="projects" id="projects">
+            <div class="project">
+                <div class="project-para">
+                    <p class="project-text">this Project was built with Ionic Angular and shows off simple CRUD applications. Check out the project here!</p>
+                    <a href="https://loginpage-11f65.web.app/"><button class="project-button">Check it out!</button></a>
+                </div>
+                
+                <div class="project-img"></div>
             </div>
-            <div class="footer-text">
-                <p>Email: Jacobcatalan943@gmail.com</p>
+            <div class="project">
+                <div class="project-img"></div>
+                <div class="project-para">
+                    <p class="project-text">this Project was built with Ionic Angular and shows off simple CRUD applications. Check out the project here!</p>
+                    <a href="https://loginpage-11f65.web.app/"><button class="project-button">Check it out!</button></a>
+                </div>
             </div>
-            <div class="footer-text">
-                <p>Phone: 317-494-0459</p>
+            <div class="project">
+                <div class="project-para">
+                    <p class="project-text">this Project was built with Ionic Angular and shows off simple CRUD applications. Check out the project here!</p>
+                    <a href="https://loginpage-11f65.web.app/"><button class="project-button">Check it out!</button></a>
+                </div>
+           
+                <div class="project-img"></div>
             </div>
-        </footer>
+        </section>
+        
     </body>
     </html>

@@ -1,61 +1,44 @@
 body{
-    background-color: gray;
+    background-color: #30343d;
 }
-.body{
-    margin: 50px;
 
+.body{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: RBI;
     
 }
 
-.home-body{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.header{
+    font-size: 30px;
 }
-
-.home-image{
-    height: 200px;
-    width: 200px;
-    background-image: url("/Portfolio/final_project/images/face.jpg");
+.desc{
+    margin-top: -20px;
+    font-size: 20px;
+}
+.img{
+    height: 400px;
+    width: 250px;
+    background-image: url("../images/Bus.PNG");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;;
-}
-
-.home-text{
-    height: 50px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-text p{
-    color: white;
+    background-size: cover;
+   
 }
 
 .home-button{
     width: 100px;
     height: 40px;
     border-radius: 38px;
-    background-color: maroon;
-}
-
-.home-button a{
-    text-decoration: none;
-    color: white;
-}
-
-.home-button:hover{
     background-color: white;
-    transition: 0.5s;
-    color: maroon;
 }
-
-.home-button a:hover{
-    text-decoration: none;
-    transition: 0.5s;
-    color: maroon;
-}
-
