@@ -1,0 +1,65 @@
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    
+    margin-top: 50px;
+}
+
+.icon-image{
+ height: 100px;
+ width: 100px;
+ background-image: url("../images/Html.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-image2{
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/css-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.icon-image3{
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/js.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-image4{
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/php.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-image5{
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/AngularJS.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.icon-image6{
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/Ion.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
