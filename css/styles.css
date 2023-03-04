@@ -79,6 +79,8 @@ body {
           flex-direction: column;
   color: white;
   font-family: RBI;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .header {
@@ -99,6 +101,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .home-button {
@@ -157,6 +161,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .project-button {
@@ -182,6 +188,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .project-text {
@@ -223,6 +231,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .icon-image2 {
@@ -232,6 +242,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .icon-image3 {
@@ -241,6 +253,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .icon-image4 {
@@ -250,6 +264,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .icon-image5 {
@@ -260,6 +276,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 .icon-image6 {
@@ -270,8 +288,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .contact {
   margin-top: 100px;
   display: -webkit-box;

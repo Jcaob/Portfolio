@@ -15,6 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeIn 2s;
 }
 
 .icon-image2{
@@ -24,6 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeIn 2s;
    }
 
 .icon-image3{
@@ -33,6 +35,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeIn 2s;
 }
 
 .icon-image4{
@@ -42,6 +45,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeIn 2s;
 }
 
 .icon-image5{
@@ -52,6 +56,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
+    animation: fadeIn 2s;
 }
 
 .icon-image6{
@@ -62,4 +67,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
+    animation: fadeIn 2s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
